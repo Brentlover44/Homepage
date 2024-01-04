@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--Footer-->
+    <footer>
+        <!--Contact-->
+        <h2 class="margin-bottom_five">Let's Work Together</h2>
+        <p>I'd Love the Chance to Collaborate</p>
+        <a class="link" href="mailto:myemail@gmail.com" target="blank">Racheldm421@gmail.com</a>
+        <a class="link" href="tel:123-456-7890">661-220-1715</a>
+
+        <!--Copyright-->
+        <p class="copyright">&copy; 2024 "Rachel Miller". All Rights Reserved</p>
+    </footer>
+
+  </body>
+</html>
+
+
+/* Define Global Css*/
+body {
+ font-family: 'Roboto' , sans-serif;
+ font-weight: 700;
+ color: #000000; 
+ line-height: 1.5;
+ margin: 0; 
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright {
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+/*Define Media Queries Which Tell the Code How Resize*/
+
+@media screen and (max-width: 768px) {
+  .nav-mobile {
+    display: block;
+  }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container_img {
+        min-width: 100%;
+    }
+
+    .hero-container_copy {
+        min-width: 100%;
+        margin: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+    .nav-mobile {
+    display: block;
+    }
+  
+    p {
+        font-size: 14px;
+    }
+
+    .hero-container_img {
+        width: 50%;
+    }
+
+    .hero-container_copy {
+        width: 50%;
+    }
+
+    .card {
+            width: 100%;
+        }
+
+    .card img {
+        width: 100%;
+    }
+}
